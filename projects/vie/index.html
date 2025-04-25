@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIE | Queer & Refugee Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="loader-spinner">VIE</div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        
+        <img src="assets/images/vie-logo.png" 
+             srcset="assets/images/vie-logo.png 1x,
+                     assets/images/logo.png 2x"
+             alt="VIE Foundation"
+             class="logo-image"
+             width="180" height="40"> <!-- Intrinsic dimensions -->
+      </a>
+      
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-toggle">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Celebrating Diverse Voices</h1>
+      <p class="hero-subtitle">Amsterdam's platform for queer, refugee & women's empowerment</p>
+      <a href="#about" class="cta-button">Explore Our Work</a>
+    </div>
+    
+    <!-- Hero Image Container -->
+    <div class="hero-image-container">
+      <img src="assets/images/hero-bg.jpg" 
+           alt="VIE community members celebrating" 
+           class="hero-image"
+           loading="eager"> <!-- Important for LCP -->
+    </div>
+  </section>
+
+  <section class="mission-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2>Our Mission</h2>
+      </div>
+      
+      <div class="mission-grid">
+        <div class="mission-card">
+          <div class="mission-icon">🌈</div>
+          <h3>Inclusive Spaces</h3>
+          <p>We create safe environments where queer individuals, refugees, and women can express themselves freely through art and community.</p>
+        </div>
+        
+        <div class="mission-card">
+          <div class="mission-icon">✨</div>
+          <h3>Radical Joy</h3>
+          <p>Our events celebrate intersectional identities as essential cultural forces in Amsterdam.</p>
+        </div>
+        
+        <div class="mission-image">
+          <img src="assets/images/about-img.jpg" alt="VIE community event" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2>Our Projects</h2>
+      </div>
+      
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/images/viva.jpg" alt="Viva la Vulva festival" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Viva la Vulva</h3>
+            <p class="project-tag">Art Festival</p>
+            <p>Celebrating body diversity through multidisciplinary art and performance.</p>
+            <a href="#" class="project-link">Learn More →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/images/yarr.jpg" alt="YARR Collective" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>YARR Collective</h3>
+            <p class="project-tag">Music Platform</p>
+            <p>Amplifying emerging queer DJs and performers in nightlife culture.</p>
+            <a href="#" class="project-link">Learn More →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/images/qkitchen.jpg" alt="Q Kitchen" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Q Kitchen</h3>
+            <p class="project-tag">Community</p>
+            <p>Monthly cooking events where meals become mediums for queer storytelling.</p>
+            <a href="#" class="project-link">Learn More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="section events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2>Upcoming Events</h2>
+      </div>
+      
+      <div class="event-highlight">
+        <div class="event-date">
+          <span>15</span>
+          <span>JUN</span>
+        </div>
+        <div class="event-details">
+          <h3>Queer Art Showcase</h3>
+          <p>Exhibition featuring 12 emerging LGBTQ+ artists exploring identity through mixed media.</p>
+          <div class="event-meta">
+            <span>Westerpark, Amsterdam</span>
+            <span>19:00-23:00</span>
+          </div>
+          <a href="#" class="cta-button">RSVP</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2>Get Involved</h2>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h3>Stay Updated</h3>
+          <form>
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Connect</h3>
+          <p>hello@vie.community</p>
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023 VIE Foundation. All rights reserved.</p>
+      <p>Creating spaces for queer, refugee & women's voices in Amsterdam.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

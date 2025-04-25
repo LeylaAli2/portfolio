@@ -1,0 +1,28 @@
+/* Background using my illustrations */
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('./img/kaboom-bg.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+}
+
+
+/* Wrapper to darken background a bit for contrast */
+.clock-wrapper {
+  background-color: rgba(20, 20, 20, 0.65); /* darker than before */
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+
+/* Clock text styled with colors from my illustration */
+#clock {
+  font-size: 60px;
+  color: #ffcc00; /* pulled from yellow horns */
+  text-shadow: 2px 2px #ff0040, -2px -2px #00ffff; /* red & cyan glow */
+  letter-spacing: 2px;
+}
